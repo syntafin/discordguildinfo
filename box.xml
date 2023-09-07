@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/box.xsd">
+    <import>
+        <box identifier="de.syntafin.discord.guildinfo">
+            <name language="de">Discord Guild Info</name>
+            <name language="en">Discord Guild Info</name>
+            <boxType>system</boxType>
+            <objectType>de.syntafin.discord.guildinfo</objectType>
+            <position>sidebarRight</position>
+            <showHeader>0</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <visibilityExceptions>
+                <page>com.woltlab.wcf.Dashboard</page>
+            </visibilityExceptions>
+
+            <content language="de">
+                <title>Discord</title>
+            </content>
+            <content language="en">
+                <title>Discord</title>
+            </content>
+        </box>
+    </import>
+</data>

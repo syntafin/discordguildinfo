@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/language.xsd" languagename="Deutsch" languagecode="de" countrycode="de">
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.syn_discord_guild_info_box"><![CDATA[Discord]]></item>
+        <item name="wcf.acp.option.category.syn_discord_guild_info_box.general"><![CDATA[Guild Info]]></item>
+        <item name="wcf.acp.option.syn_discord_guild_info_box_server_id"><![CDATA[Discord Server]]></item>
+        <item name="wcf.acp.option.syn_discord_guild_info_box_api_id"><![CDATA[Discord Bot]]></item>
+        <item name="wcf.acp.option.syn_discord_guild_info_box_noBot"><![CDATA[No bot selected]]></item>
+        <item name="wcf.acp.option.syn_discord_guild_info_box_noGuild"><![CDATA[No server selected]]></item>
+        <item name="wcf.acp.option.syn_discord_guild_info_box_invite_url"><![CDATA[Custom Invite Link]]></item>
+        <item name="wcf.acp.option.syn_discord_guild_info_box_invite_new_window"><![CDATA[Open Invite in new Window]]></item>
+    </category>
+
+    <category name="wcf.acp.box">
+        <item name="wcf.acp.box.boxController.de.syntafin.discord.guildinfo"><![CDATA[Discord Guild Info]]></item>
+    </category>
+
+    <category name="wcf.box.synDiscordGuildInfoBox">
+        <item name="wcf.box.synDiscordGuildInfoBox.join"><![CDATA[Join]]></item>
+        <item name="wcf.box.synDiscordGuildInfoBox.online"><![CDATA[Users Online]]></item>
+        <item name="wcf.box.synDiscordGuildInfoBox.members"><![CDATA[User]]></item>
+        <item name="wcf.box.synDiscordGuildInfoBox.empty"><![CDATA[No Discord information available]]></item>
+    </category>
+</language>

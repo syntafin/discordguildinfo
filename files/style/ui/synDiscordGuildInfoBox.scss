@@ -1,0 +1,65 @@
+/* [data-box-identifier="de.syntafin.discord.guildinfo"] {
+    background-image: url(../images/synDiscordGuildInfoBackgroundDark.png);
+    background-size: 200px 180px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+} */
+
+.synDiscordGuildBox {
+    width: 100%;
+}
+
+.synDiscordGuildInner {
+    display: flex;
+    align-items: center;
+
+    > :not([hidden])~ :not([hidden]) {
+        margin-right: calc(0.75rem * 1);
+        margin-left: calc(0.75rem * calc(1 - 1));
+    }
+
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: rgb(209 213 (219 / 1));
+}
+
+.synDiscordGuildText {
+    min-width: 0px;
+    flex: 1 1 0%;
+}
+
+.synDiscordGuildName {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    /* color: rgb(0 0 0); */
+}
+
+.synDiscordGuildUserInfo {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    /* color: rgb(80, 80, 80); */
+}
+
+.synDiscordGuildImageOuter {
+    flex-shrink: 0;
+}
+
+.synDiscordGuildImage {
+    height: 5rem;
+    width: 5rem;
+    margin-right: 1em;
+    border-radius: 9999px;
+}
+
+.synDiscordGuildBoxButton {
+    float: right;
+}
+
+.synDiscordGuildBoxSvg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
