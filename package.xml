@@ -4,8 +4,8 @@
 		<!-- de.syntafin.discord.guildinfo -->
 		<packagename>Discord Guild Info</packagename>
 		<packagedescription>Zeigt verschiedene Informationen zu einem Discord Server als Box an.</packagedescription>
-		<version>1.0.4</version>
-		<date>2023-09-08</date>
+		<version>1.0.5</version>
+		<date>2023-11-14</date>
 		<license>MIT</license>
 	</packageinformation>
 	<authorinformation>
@@ -44,6 +44,9 @@
 		<instruction type="file" />
 	</instructions>
 	<instructions type="update" fromversion="1.0.3">
+		<instruction type="file" />
+	</instructions>
+	<instructions type="update" fromversion="1.0.4">
 		<instruction type="file" />
 	</instructions>
 </package>
